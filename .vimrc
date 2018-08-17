@@ -1,7 +1,7 @@
 syn on
 colorscheme delek
 set hidden
-set directory=/scratch/roelof/swap//
+set directory=.vim/swap/
 set autoindent noexpandtab tabstop=4 shiftwidth=4
 "set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 "map F5 key to running make in the current directory
