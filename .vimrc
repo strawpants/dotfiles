@@ -14,4 +14,5 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdcommenter'
 Plug 'suan/vim-instant-markdown'
 Plug 'tpope/vim-sleuth'
+Plug 'cpiger/NeoDebug'
 call plug#end()

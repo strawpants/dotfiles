@@ -28,3 +28,9 @@ ln -sf $DOTFILEDIR/.vimrc
 #make sure that the plugins are loaded
 vim -c 'PlugInstall!|q|q'
 
+
+
+#tmux config
+ln -sf $DOTFILEDIR/.tmux.conf
+
+
