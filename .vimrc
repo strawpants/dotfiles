@@ -2,7 +2,8 @@ syn on
 colorscheme delek
 set hidden
 set directory=$HOME/.vim/swap/
-set autoindent noexpandtab tabstop=4 shiftwidth=4
+set autoindent expandtab tabstop=4 shiftwidth=4
+set mouse=a
 "set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 "map F5 key to running make in the current directory
 nnoremap    <F5>   :make<CR>
