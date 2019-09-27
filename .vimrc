@@ -24,4 +24,8 @@ let g:ycm_extra_conf_vim_data = [
   \  'g:ycm_python_sys_path'
   \]
 let g:ycm_global_ycm_extra_conf = '~/.vim/global_extra_conf.py'
+compiler gcc
+set errorformat^=%-G%f:%l:\ warning:%m
+
+
 
