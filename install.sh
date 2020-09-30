@@ -32,6 +32,7 @@ ln -sf $DOTFILEDIR/.tmux.conf
 #make sure that the plugins are loaded
 vim -c 'PlugInstall!|q|q'
 
-#also compile ymc
-.vim/plugged/YouCompleteMei/install.py
-
+#also compile ymc with support for javascript and C/C++ 
+cd .vim/plugged/YouCompleteMe
+python3 ./install.py --ts-completer --clangd-completer
+cd -
