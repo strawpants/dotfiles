@@ -25,12 +25,13 @@ fi
 
 ln -sf $DOTFILEDIR/.vim
 ln -sf $DOTFILEDIR/.vimrc
-#make sure that the plugins are loaded
-vim -c 'PlugInstall!|q|q'
-
-
 
 #tmux config
 ln -sf $DOTFILEDIR/.tmux.conf
 
+#make sure that the plugins are loaded
+vim -c 'PlugInstall!|q|q'
+
+#also compile ymc
+.vim/plugged/YouCompleteMei/install.py
 

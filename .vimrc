@@ -12,10 +12,10 @@ filetype plugin on
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 " pluggins using vim-plug
 call plug#begin('~/.vim/plugged')
-Plug 'scrooloose/nerdcommenter'
+"Plug 'scrooloose/nerdcommenter'
 Plug 'suan/vim-instant-markdown'
 Plug 'tpope/vim-sleuth'
-Plug 'cpiger/NeoDebug'
+"Plug 'cpiger/NeoDebug'
 Plug 'ycm-core/YouCompleteMe'
 call plug#end()
 let g:ycm_python_interpreter_path = ''
