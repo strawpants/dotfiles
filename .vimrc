@@ -7,6 +7,7 @@ set mouse=a
 "set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 set makeprg=make\ -C\ build\ -j4 
 let g:instant_markdown_slow = 1
+"set spell spelllang=en_us
 filetype plugin on
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 " pluggins using vim-plug
@@ -19,13 +20,14 @@ Plug 'ycm-core/YouCompleteMe'
 call plug#end()
 let g:ycm_python_interpreter_path = ''
 let g:ycm_python_sys_path = []
+let g:ycm_always_populate_location_list = 1
 let g:ycm_extra_conf_vim_data = [
   \  'g:ycm_python_interpreter_path',
   \  'g:ycm_python_sys_path'
   \]
 let g:ycm_global_ycm_extra_conf = '~/.vim/global_extra_conf.py'
 compiler gcc
-set errorformat^=%-G%f:%l:\ warning:%m
+" set errorformat^=%-G%f:%l:\ warning:%m
 
 
 
